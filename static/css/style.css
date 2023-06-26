@@ -1,0 +1,553 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 25px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+
+section {
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+.set-bk-clr {
+    background:linear-gradient(to top, #42E8E5,#000) ;
+    border-radius: 4px;
+    color:#fff;
+    font-weight: bolder;
+}
+
+.f-big {
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.set-bk-clr:hover {
+    background:#004 /*rgba(107, 1, 41, 0.67)*/;
+    color:#fff;
+    font-weight: bolder;
+}
+
+.socialPlatform{
+    color:#42E8E5;
+}
+
+.darkHeadingSection {
+     color: #064544;
+}
+
+.lightHeadingSection {
+     color: #42E8E5;
+}
+/*==============================
+NAVBAR STYLES
+==============================*/
+/* ADDED PADDING IN NAVBAR */
+.navbar {
+    padding: 15px;
+    -webkit-transition: background .8s ease-out,padding .8s ease-out;
+    -moz-transition: background .8s ease-out,padding .8s ease-out;
+    transition: background .8s ease-out,padding .8s ease-out;
+}
+
+.navbar-default {
+    background-color:#064544;  /*#FF2276*/;
+    border-color: transparent;
+    opacity: 0.7;
+    border-bottom: 3px solid rgba(0,0,0,0.8);
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+     background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #42E8E5;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #1ff1ff;
+    text-decoration: none;
+}
+
+/* CLASS FOR REMOVING PADDING IN NAVBAR*/
+.navbar-pad-original {
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px ;
+    border-bottom: 3px solid #1ff1ff;
+    margin:0 5px 0 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+#navi {
+    font-size: 15px;
+}
+
+/* =============================================================
+  HEADER SECTION STYLES
+ ============================================================ */
+
+    #header {
+        background: url(../img/index.png) no-repeat center center;
+        padding: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+    }
+
+    #header .overlay {
+        background-color: rgba(3, 3, 3, 0.4);
+        min-height: 905px;
+        overflow: hidden;
+    }
+
+    #header h1 {
+        line-height: 60px;
+        font-size: 45px;
+        font-weight: 900;
+        padding-top: 180px;
+        padding-bottom: 35px;
+        color: #42E8E5;
+
+    }
+
+    #header h2 {
+        line-height: 60px;
+        font-size: 45px;
+        font-weight: 900;
+        padding-top: 10px;
+        color: #fff;
+
+    }
+
+    #header h4 {
+        line-height: 32px;
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+
+/*================================
+    Profile STYLES
+==================================*/
+#profile {
+    background-color:#ebf4f5;/*rgba(237, 237, 237, 1)*/;
+    margin-top: -25px;
+    opacity: 1;
+    color: #fff;
+    border-bottom:3px solid rgba(0,0,0,0.3);
+    padding-bottom: 0px;
+    padding-top: 40px;
+
+}
+
+#services i {
+        font-size: 80px;
+        padding: 30px;
+        color: #FF2276;
+    }
+
+#services h4 {
+        padding-bottom: 5px;
+        padding-top: 15px;
+    }
+
+#services7 img {
+       margin-right:40px;
+    }
+
+.aboutPara {
+        color: #0e5661;
+        opacity: 0.6;
+    }
+
+/* =============================================================
+  EDUCATION SECTION STYLES
+ ============================================================ */
+#edu {
+    background: url(../img/edu.jpg) no-repeat center center;
+    padding-top: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+    border-top:3px solid #001;
+
+}
+.edu
+    #testimonial .overlay {
+        background-color: rgba(0,0,0,0.7);
+/*        padding-top: 90px;
+*/        min-height: 400px;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+#clients {
+    background-color: yellow;
+}
+/*================================
+    SKILLS STYLES
+==================================*/
+#services {
+    background-color:#ebf4f5;/*rgba(237, 237, 237, 1)*/;
+    margin-top: -25px;
+    opacity: 1;
+    color: #fff;
+    border-bottom:3px solid rgba(0,0,0,0.3);
+    padding-bottom: 70px;
+    padding-top: 40px;
+
+}
+
+    #services i {
+        font-size: 80px;
+        padding: 30px;
+        color: #FF2276;
+    }
+
+    #services h4 {
+        padding-bottom: 5px;
+        padding-top: 15px;
+        color: #064544;
+    }
+
+    #services7 img {
+       margin-right:40px;
+    }
+
+/* =============================================================
+ PROJECT SECTION STYLES
+ ============================================================ */
+
+/*Changed the color*/
+#works {
+    color: #ffffff;
+    background: url(../img/testimonial.jpg) no-repeat center center;
+    padding-bottom: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+#works .container {
+    background-color: rgba(0,0,0,0.6);
+    padding:30px 30px 10px 30px;
+}
+
+ #works .work-wrapper h3 {
+        color: #42E8E5;
+    }
+
+  #works .work-wrapper1 {
+    /*border: 2px solid #FF2276;*/
+    padding: 2px;
+    margin: 1px 1px 30px 1px;
+    overflow: hidden;
+}
+#works .work-wrapper2 {
+    /*border: 2px solid #FF2276;*/
+    padding: 2px;
+    margin: 1px 1px 30px 1px;
+    overflow: hidden;
+}
+
+#works .work-wrapper3 {
+    /*border: 2px solid #FF2276;*/
+    padding: 2px;
+    margin: 1px 1px 30px 1px;
+    overflow: hidden;
+}
+
+#works .work-wrapper4 {
+    /*border: 2px solid #FF2276;*/
+    padding: 2px;
+    margin: 1px 1px 30px 1px;
+    overflow: hidden;
+}
+
+#works .work-wrapper img {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform:scale(1);
+    transform:scale(1);
+
+}
+
+#works img {
+    filter: none; /* FOR IE6-9 */
+    -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    opacity: 1;
+    border-radius: 3px;
+    border:1px solid #1ff1ff;
+
+}
+
+#works img:hover {
+    /*-webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);*/
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+.col-md-2{
+         color:#255359
+}
+/* FOR CHANGING COLOR OF ACTIVE CATEGORY */
+.categories a.active {
+    background-color: #004;;
+    border: 2px solid #222;
+    border-radius: 5px;
+}
+
+.categories a {
+    margin: 0px 2px;
+    border-radius:5px;
+    padding:10px;
+}
+
+/* FOR TRANSITION BEAUTIFULLY */
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+/*================================
+    CERTIFICATIONS STYLES
+==================================*/
+#certifications {
+    color: #ffffff;
+    background-color:#ebf4f5;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+#certifications h3{
+    color: #1893D5;
+}
+
+.col-md-4{
+       color: #255359;
+}
+
+/* FOR CHANGING COLOR OF ACTIVE CATEGORY */
+.categories a.active {
+    background-color: #1893D5;
+    border: 2px solid #222;
+    border-radius: 5px;
+}
+
+.categories a {
+    margin: 0px 5px;
+    border-radius:5px;
+    padding:10px;
+}
+
+/* FOR TRANSITION BEAUTIFULLY */
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+#certifications .work-wrapper {
+    /*border: 2px solid #FF2276;*/
+    padding: 2px;
+    margin: 1px 1px 30px 1px;
+    overflow: hidden;
+}
+
+#certifications .work-wrapper img {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform:scale(1);
+    transform:scale(1);
+
+}
+
+#certifications img {
+    filter: none; /* FOR IE6-9 */
+    -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    opacity: 1;
+    border-radius: 3px;
+    border:1px solid #1ff1ff;
+
+}
+
+#certifications img:hover {
+    /*-webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);*/
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+
+
+
+/*================================
+    EXPERIENCE STYLES
+==================================*/
+#experience {
+    color: #ffffff;
+    background: url(../img/exp.jpeg) no-repeat center center;
+    padding-bottom: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.education-row {
+    margin: 1rem 0 2rem 13rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 80%;
+}
+
+.apply-shadow {
+    box-shadow: 0rem 0rem 2rem 1rem rgb(0 0 0 / 50%);
+}
+
+.align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.lead {
+    font-size: 2.25rem;
+    font-weight: 100;
+}
+.education-title {
+    margin: 8rem 0rem;
+}
+
+
+
+
+
+/* =============================================================
+  TESTIMONIAL SECTION STYLES
+ ============================================================ */
+#testimonial {
+    background: url(../img/quote.jpg) no-repeat center center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+    #testimonial .overlay {
+        background-color: rgba(0,0,0,0);
+        min-height: 100px;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+.work {
+    color: #1ff1ff;
+    opacity: 0.7;
+
+}
+#clients {
+    background-color: yellow;
+}
+
+/* =============================================================
+  CONTACT SECTION STYLES
+ ============================================================ */
+#contact {
+    background: url(../img/clients.jpg) no-repeat center center;
+/*    margin-right: 50px;
+*/  margin-left: -20px;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+    #contact .overlay {
+        background-color: rgba(0,0,0,0.1);
+        padding-top: 90px;
+        color: #fff;
+/*        padding-bottom: 100px;
+*/    }
+/* =============================================================
+  FOOTER SECTION STYLES
+ ============================================================ */
+footer {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    min-height: 200px;
+}
+
+    footer a, footer a:link {
+        text-decoration: none;
+        color:#1ff1ff;
+        
+    }
+
+    .owner a:link, a:hover{
+        color:#1ff1ff;
+        opacity: 0.7;
+    }
+ .owner {
+        font-size: 18px;
+    }
+
+footer, .social {
+    margin-top: -200px;
+    padding-top: 140px;
+}
+
+.social, .fa {
+    font-size: 25px;
+    margin-left:5px;
+
+}
+
+.facebook, .instagram, .twitter, .fa {
+    margin-right: 15px;
+}
+
